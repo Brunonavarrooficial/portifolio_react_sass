@@ -11,7 +11,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Full Stack</p>
       <SocialNetwork />
       <InformationContainer />
-      <a href="https://github.com/Brunonavarrooficial/AgenciaFake_HTMLCSS/raw/main/assets/images/pc.png" target={'_blank'} className="btn">Download Currículo</a>
+      <a href="https://github.com/Brunonavarrooficial/portifolio_react_sass/raw/main/react_sass_portifolio/src/assets/documents/Bruno_Bonfim_Curr%C3%ADculo.pdf" target={'_blank'} className="btn">Download Currículo</a>
     </aside>
   )
 }
