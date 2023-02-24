@@ -9,7 +9,7 @@ function App() {
     <div id="portifolio">
       <h1>Bruno Bonfim</h1>
       <Sidebar />
-      <MainContent />
+      <MainContent />            
     </div>
   )
 }

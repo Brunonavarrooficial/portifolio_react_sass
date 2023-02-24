@@ -11,9 +11,35 @@
     background: variables.$gradient
     text-decoration: none
     border-radius: 3rem
+    transition: 0.1s
+
+    &:hover
+        opacity: 0.5
+        color: variables.$golden
+        width: 49%
 
 @mixin gradient-border
     content: ''
     background: variables.$gradient
     height: 3px
     width: 30%
+
+@mixin mobile-projects
+    @media (max-width: 850px)
+        @content
+
+@mixin mobile-projects-photo-min
+    @media (min-width: 851px) and (max-width: 999px)
+        @content
+
+@mixin mobile-projects-photo
+    @media (min-width: 1000px) and (max-width: 1200px)
+        @content
+
+@mixin mobile-projects-max
+    @media (min-width: 1350px) and (max-width: 1550px)
+        @content
+
+@mixin mobile-projects-max-sup
+    @media (min-width: 1551px)
+        @content

@@ -8,10 +8,10 @@ const Sidebar = () => {
   return (
     <aside id="sidebar">
       <img src={Avatar} alt="avatar" />
-      <p className="title">Desenvolvedor</p>
+      <p className="title">Desenvolvedor Full Stack</p>
       <SocialNetwork />
       <InformationContainer />
-      <a href="" className="btn">Download currículo</a>
+      <a href="https://github.com/Brunonavarrooficial/AgenciaFake_HTMLCSS/raw/main/assets/images/pc.png" target={'_blank'} className="btn">Download Currículo</a>
     </aside>
   )
 }

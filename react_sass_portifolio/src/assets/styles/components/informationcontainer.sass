@@ -10,6 +10,11 @@
     text-align: left
     width: 80%
     border-radius: variables.$card-border-radius
+    @include mixins.mobile-projects-photo-min
+        width: 55%
+
+    @include mixins.mobile-projects-photo
+        width: 60%
 
     .info-card
         @include mixins.center
@@ -24,10 +29,14 @@
             color: variables.$text-color-secondary
             font-size: .8rem
             margin-bottom: .5rem
+            @include mixins.mobile-projects
+                font-size: 1.2rem
 
         p
             color: variables.$text-color
             font-weight: bold
+            @include mixins.mobile-projects
+                font-size: 1.4rem
 
         svg
             background-color: variables.$bg-color
@@ -35,6 +44,13 @@
             width: 2rem
             height: 2rem
             border-radius: variables.$card-border-radius
+            @include mixins.mobile-projects
+                width: 3rem
+                height: 3rem
+            @include mixins.mobile-projects-photo-min
+                margin: 0 0 0 120px
+            @include mixins.mobile-projects-photo
+                margin: 0 0 0 150px
 
         #phone-icon
             color: #e93b81

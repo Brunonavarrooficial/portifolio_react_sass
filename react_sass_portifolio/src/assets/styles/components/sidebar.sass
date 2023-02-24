@@ -13,7 +13,7 @@
     padding: 3rem 0
 
     img
-        max-width: 70%
+        width: 250px
         border-radius: variables.$container-border-radius
         position: absolute
         top: -3rem
@@ -24,6 +24,11 @@
         border-radius: variables.$card-border-radius
         margin-top: 12rem
         padding: .8rem 1.2rem
+        @include mixins.mobile-projects
+            font-size: 1.2rem
 
     .btn
         @include mixins.btn
+        @include mixins.mobile-projects
+            width: 300px
+            font-size: 1.2rem
