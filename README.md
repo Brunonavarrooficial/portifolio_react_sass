@@ -37,5 +37,11 @@
             * Favicon
 #
 
+<div align="center">
+<h3>Projeto Portifólio 📋💻👨‍💻</h3>
+<br/>
+<img src="./react_sass_portifolio/src/assets/image/projects/portifoliodonnavarro.gif" />
+</div>
+
 
 
